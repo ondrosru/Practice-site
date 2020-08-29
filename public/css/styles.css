@@ -1,3 +1,37 @@
-.indicator-carousel-avg {
-	color: #9932cc;
+.button_style {
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+	color:rgb(102, 102, 102);
+	display:block;
+	font-family:"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+	font-size:26px;
+	font-weight:700;
+	height:93px;
+	letter-spacing:normal;
+	line-height:31.2px;
+}
+
+.carousel-control-next-icon {
+    margin-top: 14px;
+}
+
+.carousel-control-prev-icon {
+    margin-top: 14px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.production-list-wrapper {
+    margin-top: 20px;
+}
+
+.carousel-indicators {
+    position: relative;
 }
