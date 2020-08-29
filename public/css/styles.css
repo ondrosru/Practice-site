@@ -1,0 +1,29 @@
+.indicator-carousel-avg {
+    color: #9932cc;
+}
+.button_style {
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-next-icon {
+    margin-top: 14px;
+}
+
+.carousel-control-prev-icon {
+    margin-top: 14px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.production-list-wrapper {
+    margin-top: 20px;
+}
+
+.carousel-indicators {
+    position: relative;
+}
