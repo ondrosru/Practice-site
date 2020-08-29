@@ -1,11 +1,17 @@
 <?php 
 include_once 'app/components/header.php';
 ?>
-    <div class="container" style="max-width: 740px;">
-<?php
-include_once 'app/pages/about/about.php';
-?>
-    </div>
+
+<div class="site-content">
+	<div class="wrap">
+		<div class="content-area">
+			<?php 
+					include_once 'app/pages/contacts.php';
+			?>
+		</div>
+	</div>
+</div>
+
 <?php
 include_once 'app/components/footer.php';
 ?>
