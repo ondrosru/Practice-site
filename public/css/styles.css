@@ -5,14 +5,27 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+
+.gradient_style {
+    display: grid;
+    background: rgb(255,248,203);
+    background: linear-gradient(146deg, rgba(255,248,203,1) 0%, rgba(182,227,212,1) 41%, rgba(51,167,181,1) 100%);
+}
+
+.img_block {
+    display:block;
+    grid-column: 1;
+    box-sizing:border-box;
+}
+
 h3 {
 	color:rgb(102, 102, 102);
 	display:block;
 	font-family:"Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
 	font-size:26px;
 	font-weight:700;
-	height:93px;
 	letter-spacing:normal;
+    clear: both;
 	line-height:31.2px;
 }
 

@@ -2,17 +2,25 @@
 	<h2 class="entry-title">Добро пожаловать в АВИДЖИ</h2>
 </header>
 <h3>Электротехнические компоненты, промышленная пневматика и электро-механические системы для автоматизации производства</h3>
-<div>
-	<ul>
+<div class="gradient_style">
+    <div class="img_block">
+        <img src="../../public/images/back_1.jpg">
+    </div>
+    <div>
+	   <ul>
 		<li>SIEMENS</li>
 		<li>FINDER</li>
 		<li>PHOENIX CONTACT</li>
-		<li>EATON</li><li>MOELLER</li>
-		<li>DELTA</li><li>LEUZE</li>
-		<li>FESTO</li><li>OMRON</li>
+		<li>EATON</li>
+        <li>MOELLER</li>
+		<li>DELTA</li>
+        <li>LEUZE</li>
+		<li>FESTO</li>
+        <li>OMRON</li>
 		<li>SICK</li>
 		<li>IFM</li>
-	</ul>
+	   </ul>
+    </div>
 </div>
 <div id="carousel1" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -50,12 +58,18 @@
 </div>
 
 <h3>Цепи роликовые и звездочки к ним</h3>
-<div>
-	<ul>
+
+<div class="gradient_style">
+    <div>
+	   <ul>
 		<li>DITTON (Латвия)</li>
 		<li>SKF (Германия)</li>
 		<li>IWIS (Германия)</li>
-	</ul>
+	   </ul>
+    </div>
+    <div class="img_block">
+        <img src="../../public/images/back_2.jpg">
+    </div>
 </div>
 <div id="carousel2" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -89,12 +103,17 @@
 </div>
 
 <h3>Сетки отечественного и импортного производства</h3>
-<div>
+<div class="gradient_style">
+    <div class="img_block">
+        <img src="../../public/images/back_3.jpg">
+    </div>
+    <div>
 	<ul>
 		<li>Транспортные</li>
 		<li>Глазированные</li>
 	</ul>
 	<p>Комплектующие к ним</p>
+    </div>
 </div>
 <div id="carousel3" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -128,10 +147,15 @@
 </div>
 
 <h3>Вакуумные присоски</h3>
-<div>
+<div class="gradient_style">
+    <div>
 	<ul>
 		<li>FIPA</li>
 	</ul>
+    </div>
+    <div class="img_block">
+        <img src="../../public/images/back_4.jpg">
+    </div>
 </div>
 <div id="carousel4" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
