@@ -3,10 +3,8 @@
 </header>
 <h3>Электротехнические компоненты, промышленная пневматика и электро-механические системы для автоматизации производства</h3>
 <div class="gradient_style">
-    <div class="img_block">
-        <img src="../../public/images/back_1.jpg">
-    </div>
-    <div>
+    <img class="left_block img_gradient" src="../../public/images/back_1.jpg">
+    <div class="list_gradient right_block">
 	   <ul>
 		<li>SIEMENS</li>
 		<li>FINDER</li>
@@ -58,18 +56,15 @@
 </div>
 
 <h3>Цепи роликовые и звездочки к ним</h3>
-
 <div class="gradient_style">
-    <div>
+    <div class="left_block list_gradient">
 	   <ul>
 		<li>DITTON (Латвия)</li>
 		<li>SKF (Германия)</li>
 		<li>IWIS (Германия)</li>
 	   </ul>
     </div>
-    <div class="img_block">
-        <img src="../../public/images/back_2.jpg">
-    </div>
+    <img class="right_block img_gradient" src="../../public/images/back_2.jpg">
 </div>
 <div id="carousel2" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -104,15 +99,13 @@
 
 <h3>Сетки отечественного и импортного производства</h3>
 <div class="gradient_style">
-    <div class="img_block">
-        <img src="../../public/images/back_3.jpg">
-    </div>
-    <div>
-	<ul>
+    <img class="left_block img_gradient" src="../../public/images/back_3.jpg">
+    <div class="right_block list_gradient">
+	   <ul>
 		<li>Транспортные</li>
 		<li>Глазированные</li>
-	</ul>
-	<p>Комплектующие к ним</p>
+	   </ul>
+	   <p>Комплектующие к ним</p>
     </div>
 </div>
 <div id="carousel3" class="carousel slide" data-ride="carousel">
@@ -148,14 +141,12 @@
 
 <h3>Вакуумные присоски</h3>
 <div class="gradient_style">
-    <div>
+    <div class="left_block list_gradient">
 	<ul>
 		<li>FIPA</li>
 	</ul>
     </div>
-    <div class="img_block">
-        <img src="../../public/images/back_4.jpg">
-    </div>
+    <img class="right_block img_gradient" src="../../public/images/back_4.jpg">
 </div>
 <div id="carousel4" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
