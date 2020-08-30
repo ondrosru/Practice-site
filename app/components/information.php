@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style/main.css">
         <title>Main</title>
-        <script src="./../../public/js/navigation.js"></script>
+        <script src="js/navigation.js"></script>
     </head>
     <body>
         <div class="menu-primary-2-container"> 
