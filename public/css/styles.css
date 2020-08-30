@@ -7,7 +7,7 @@
 
 .gradient_style {
     margin-bottom: 20px;
-    background: rgb(255,248,203);
+    background: rgba(51,167,181,1);
     background: linear-gradient(146deg, rgba(255,248,203,1) 0%, rgba(182,227,212,1) 41%, rgba(51,167,181,1) 100%);
 }
 
@@ -53,4 +53,15 @@ h3 {
 
 .carousel-indicators {
     position: relative;
+}
+
+.padding-left-right-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.margin-left-right-0 {
+	margin-left: 0;
+	margin-right: 0;
 }

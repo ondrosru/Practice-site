@@ -2,11 +2,11 @@
 	<h2 class="entry-title">Добро пожаловать в АВИДЖИ</h2>
 </header>
 <h3>Электротехнические компоненты, промышленная пневматика и электро-механические системы для автоматизации производства</h3>
-<div class="gradient_style row">
-    <div class="col-md" style="padding: 0;">
-        <img class="w-100" src="../../public/images/back_1.jpg">
+<div class="gradient_style row margin-left-right-0">
+    <div class="col-sm padding-left-right-0">
+        <img class="w-100 h-100" src="../../public/images/back_1.jpg">
     </div>
-    <div class="col-md list_gradient">
+    <div class="col-sm list_gradient padding-left-right-0">
 	   <ul>
 		<li>SIEMENS</li>
 		<li>FINDER</li>
@@ -58,16 +58,16 @@
 </div>
 
 <h3>Цепи роликовые и звездочки к ним</h3>
-<div class="gradient_style row">
-    <div class="col-md list_gradient">
+<div class="gradient_style row margin-left-right-0">
+    <div class="col-sm padding-left-right-0 list_gradient">
 	   <ul>
 		<li>DITTON (Латвия)</li>
 		<li>SKF (Германия)</li>
 		<li>IWIS (Германия)</li>
 	   </ul>
     </div>
-    <div class="no-padding col-md" style="padding: 0;">
-        <img class="w-100" src="../../public/images/back_2.jpg">
+    <div class="padding-left-right-0 col-sm">
+        <img class="w-100 h-100" src="../../public/images/back_2.jpg">
     </div>
 </div>
 <div id="carousel2" class="carousel slide" data-ride="carousel">
@@ -102,11 +102,11 @@
 </div>
 
 <h3>Сетки отечественного и импортного производства</h3>
-<div class="gradient_style row">
-    <div class="no-padding col-md" style="padding: 0;">
-        <img class="w-100" src="../../public/images/back_3.jpg">
+<div class="gradient_style row margin-left-right-0">
+    <div class="padding-left-right-0 col-sm">
+        <img class="w-100 h-100" src="../../public/images/back_3.jpg">
     </div>
-    <div class="col-md list_gradient">
+    <div class="col-sm padding-left-right-0 list_gradient">
 	   <ul>
 		<li>Транспортные</li>
 		<li>Глазированные</li>
@@ -146,14 +146,14 @@
 </div>
 
 <h3>Вакуумные присоски</h3>
-<div class="gradient_style row">
-    <div class="col-md list_gradient">
+<div class="gradient_style row margin-left-right-0">
+    <div class="col-sm padding-left-right-0 list_gradient">
 	   <ul>
 		<li>FIPA</li>
 	   </ul>
     </div>
-    <div class="no-padding col-md" style="padding: 0;">
-        <img class="w-100" src="../../public/images/back_4.jpg">
+    <div class="padding-left-right-0 col-sm">
+        <img class="w-100 h-100" src="../../public/images/back_4.jpg">
     </div>
 </div>
 <div id="carousel4" class="carousel slide" data-ride="carousel">
