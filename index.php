@@ -1,6 +1,5 @@
 <?php 
-include_once 'app/components/header.php';
-?>
+include_once 'app/components/header.php';?>
 
 <div class="site-content">
 	<div class="wrap">

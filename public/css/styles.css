@@ -41,6 +41,10 @@ h1 {
 	font-size: 24px;
 	font-size: 1.5rem;
 	font-weight: 300;
+	clear: both;
+	line-height: 1.5em;
+	margin: 0 0 .75em;
+	padding: 1.5em 0 0;
 }
 
 h2 {
@@ -248,6 +252,46 @@ h1:first-child, h2:first-child {
 
 .carousel-indicators {
     position: relative;
+}
+
+.block-cover {
+	position: relative;
+	background-size: cover;
+	background-position: 50%;
+	min-height: 430px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 16px;
+}
+
+.block-cover.home-bakcground-color {
+	background-color: #000;
+}
+
+.block-cover.home-bakcground-image {
+	background-image: url("./../images/home_background.jpg");
+}
+
+.block-cover .block-cover__inner-container {
+	width: calc(100% - 70px);
+	z-index: 1;
+	color: #fff;
+}
+
+.entry-title {
+	color: #222;
+	font-size: 14px;
+	font-size: .875rem;
+	font-weight: 800;
+	letter-spacing: .14;
+	text-transform: uppercase;
+}
+
+.has-text-align-center {
+	text-align: center;
 }
 
 @media screen and (min-width: 30em) {
