@@ -2,9 +2,9 @@
 	<h2 class="entry-title">Добро пожаловать в АВИДЖИ</h2>
 </header>
 <h3>Электротехнические компоненты, промышленная пневматика и электро-механические системы для автоматизации производства</h3>
-<div class="gradient_style">
-    <img class="left_block img_gradient" src="../../public/images/back_1.jpg">
-    <div class="list_gradient right_block">
+<div class="gradient_style row">
+    <img class="col-md w-100" src="../../public/images/back_1.jpg">
+    <div class="col-md list_gradient">
 	   <ul>
 		<li>SIEMENS</li>
 		<li>FINDER</li>
@@ -36,10 +36,10 @@
     	</div>
     </div>
     <ol class="carousel-indicators">
-            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel1" data-slide-to="1"></li>
-            <li data-target="#carousel1" data-slide-to="2"></li>
-            <li data-target="#carousel1" data-slide-to="3"></li>
+        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel1" data-slide-to="1"></li>
+        <li data-target="#carousel1" data-slide-to="2"></li>
+        <li data-target="#carousel1" data-slide-to="3"></li>
     </ol>
     <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
     	<div class="button_style">
@@ -56,15 +56,15 @@
 </div>
 
 <h3>Цепи роликовые и звездочки к ним</h3>
-<div class="gradient_style">
-    <div class="left_block list_gradient">
+<div class="gradient_style row">
+    <div class="col-md list_gradient">
 	   <ul>
 		<li>DITTON (Латвия)</li>
 		<li>SKF (Германия)</li>
 		<li>IWIS (Германия)</li>
 	   </ul>
     </div>
-    <img class="right_block img_gradient" src="../../public/images/back_2.jpg">
+    <img class="col-md w-100" src="../../public/images/back_2.jpg">
 </div>
 <div id="carousel2" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -98,9 +98,9 @@
 </div>
 
 <h3>Сетки отечественного и импортного производства</h3>
-<div class="gradient_style">
-    <img class="left_block img_gradient" src="../../public/images/back_3.jpg">
-    <div class="right_block list_gradient">
+<div class="gradient_style row">
+    <img class="col-md" src="../../public/images/back_3.jpg">
+    <div class="col-md list_gradient">
 	   <ul>
 		<li>Транспортные</li>
 		<li>Глазированные</li>
@@ -140,13 +140,13 @@
 </div>
 
 <h3>Вакуумные присоски</h3>
-<div class="gradient_style">
-    <div class="left_block list_gradient">
+<div class="gradient_style row">
+    <div class="col-md list_gradient">
 	<ul>
 		<li>FIPA</li>
 	</ul>
     </div>
-    <img class="right_block img_gradient" src="../../public/images/back_4.jpg">
+    <img class="col-md" src="../../public/images/back_4.jpg">
 </div>
 <div id="carousel4" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
