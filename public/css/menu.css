@@ -5,11 +5,16 @@
     outline: none;
 }
 
+body {
+    background-color: white;
+}
+
 .parentMenu {
     display: flex;
     width: 100%;
     height: auto;
     justify-content: center;
+    flex-direction: column;
 }
 
 .menu {
@@ -35,6 +40,7 @@
     width: 100%;
     height: 100%;
     background-color: white;
+    font-weight: 600;
 }
 
 .menuButton:hover {
@@ -46,30 +52,89 @@
     color: gray;
 }
 
-.gamburger{
-    display: flex;
+.menuBurger {
+    display: none;
+    height: 198.4px;
+    padding: 10.5px 47.83px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    border-top-style: outset;
+}
 
+.invizibl {
+    display: none;
+}
+
+.gamburger {
+    display: none;
+    padding: 10px;
+    width: 76px;
+    height: auto;
+    cursor: pointer;
+    margin: auto;
+
+}
+
+.gumburgeButton {
+    width: 67.118px;
+    height: 20.8px;
+    font-weight: bolder;
+    background-color:white;
+    font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,sans-serif;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.icon1 {
+    width: 14px;
+    height: 14px;
+    margin: auto -5px auto 0;
+    z-index: 99;
+}
+
+.icon2 {
+    width: 11px;
+    height: 11px;
+    margin: auto -5px auto 0;
+    z-index: 99;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";  
+    src: url("../../public/images/HelveticaNeueBlackCondensed.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face{
+font-family: "Segoe UI";
+src: url("../../public/images/SegoeUI.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
 }
 
 @media screen and (max-width: 767px) {
 
     .menu {
-        height: 248.4px;
-        max-width:672.3px;
-        min-width: 254.34px;
-        justify-content: center;
-        flex-direction: column;
+        display: none;
+    }
+
+    .vizibl {
+        display: flex;
     }
 
     .menu-item {
         max-width: 100%;
+        border-bottom-style: outset;
     }
     
     .menuButton {
         max-width: 150px;
-        justify-content: center;
-        margin: auto;
     }
 
-  }
+    .gamburger {
+        display: flex;
+    }
+}
 
