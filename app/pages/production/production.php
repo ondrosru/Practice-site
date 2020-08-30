@@ -3,7 +3,9 @@
 </header>
 <h3>Электротехнические компоненты, промышленная пневматика и электро-механические системы для автоматизации производства</h3>
 <div class="gradient_style row">
-    <img class="col-md w-100" src="../../public/images/back_1.jpg">
+    <div class="col-md" style="padding: 0;">
+        <img class="w-100" src="../../public/images/back_1.jpg">
+    </div>
     <div class="col-md list_gradient">
 	   <ul>
 		<li>SIEMENS</li>
@@ -64,7 +66,9 @@
 		<li>IWIS (Германия)</li>
 	   </ul>
     </div>
-    <img class="col-md w-100" src="../../public/images/back_2.jpg">
+    <div class="no-padding col-md" style="padding: 0;">
+        <img class="w-100" src="../../public/images/back_2.jpg">
+    </div>
 </div>
 <div id="carousel2" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -99,7 +103,9 @@
 
 <h3>Сетки отечественного и импортного производства</h3>
 <div class="gradient_style row">
-    <img class="col-md" src="../../public/images/back_3.jpg">
+    <div class="no-padding col-md" style="padding: 0;">
+        <img class="w-100" src="../../public/images/back_3.jpg">
+    </div>
     <div class="col-md list_gradient">
 	   <ul>
 		<li>Транспортные</li>
@@ -142,11 +148,13 @@
 <h3>Вакуумные присоски</h3>
 <div class="gradient_style row">
     <div class="col-md list_gradient">
-	<ul>
+	   <ul>
 		<li>FIPA</li>
-	</ul>
+	   </ul>
     </div>
-    <img class="col-md" src="../../public/images/back_4.jpg">
+    <div class="no-padding col-md" style="padding: 0;">
+        <img class="w-100" src="../../public/images/back_4.jpg">
+    </div>
 </div>
 <div id="carousel4" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
