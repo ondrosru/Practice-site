@@ -104,7 +104,7 @@ h1:first-child, h2:first-child {
 	right: 0;
 	position: relative;
 	background-color:#000;
-	z-index: 4;
+	z-index: 3;
 }
 
 .wrap {
