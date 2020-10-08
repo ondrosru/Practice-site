@@ -1,3 +1,7 @@
+<?php
+	include_once './public/php/save-massage.php';
+?>
+
 <!doctype html>
 <html lang="ru">
 	<head>
@@ -45,7 +49,6 @@
 					</div>
 				</div>
 			</div>
-
 		</header>
 		<div class="site-content-contain">
 			<div class="site-content">
@@ -69,18 +72,24 @@
 									</div>
 									<div class="col-md">
 										<h2 class="has-text-align-left">Отправить сообщение</h2>
-										<form class="contact-form" action="public/php/save-massage.php" method="POST">
+										<?php 
+											if(isset($_POST['sendMassage']))
+											{
+												send_message($_POST);
+											}
+										?>
+										<form class="contact-form" action="" method="POST">
 											<div class="form-group">
 												<label for="name"><span class="font-weight-bold">ФИО</span> (обязятельно)</label>
-												<input id="name" name="name" type="text">
+												<input id="name" name="name" type="text" required>
 											</div>
 											<div class="form-group">
 												<label for="email"><span class="font-weight-bold">Email</span> (обязятельно)</label>
-												<input id="email" name="email" type="text">
+												<input id="email" name="email" type="text" required>
 											</div>
 											<div class="form-group">
 												<label for="phone"><span class="font-weight-bold">Телефон</span> (обязятельно)</label>
-												<input id="phone" name="phone" type="text">
+												<input id="phone" name="phone" type="text" required>
 											</div>
 											<div class="form-group">
 												<label for="name-company"><span class="font-weight-bold">Наименование организации</span></label>
@@ -88,10 +97,10 @@
 											</div>
 											<div class="form-group">
 												<label for="massage"><span class="font-weight-bold">Сообщение</span> (обязятельно)</label>
-												<textarea id="massage" name="massage" rows="20"></textarea>
+												<textarea id="massage" name="massage" rows="20" required></textarea>
 											</div>
 											<div class="form-group">
-												<button type="submit">Отправить</button>
+												<button name="sendMassage" type="submit">Отправить</button>
 											</div>
 										</form>
 									</div>
