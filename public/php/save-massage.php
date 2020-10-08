@@ -19,16 +19,15 @@
 	} else {
 		$company = "NULL";
 	}
+    $message = "ФИО: " . $name . "\n" . "email: " . $email . "\n" . "Телефон: " . $phone .  "\n";
+    if($company != "NULL")
+    {
+        $message = $message . "Наименование организации: " . $company . "\n";
+    }
+    $message = $message . "Сообщение: " . $massage;
+	$subject = "";
 
-	$sql_server = 'avgpiter.beget.tech';
-	$sql_user = 'avgpiter_iji';
-	$sql_pwd = 'AaBb_2';
-	$sql_db = 'avgpiter_iji';
+    mail($email, $subject, $message);
 
-	$link = mysqli_connect($sql_server, $sql_user, $sql_pwd, $sql_db) or die("Ошибка: " . mysqli_error($link));
-	$query ="INSERT INTO `user-massage`(`name`, `email`, `phone`, `company`, `massage`) VALUES ('$name', '$email', '$phone', $company, '$massage')";
-	$insert = mysqli_query($link, $query) or die("Ошибка: " . mysqli_error($link));
-
-	mysqli_close($link);
-	header( 'location: ../../contacts.html' );
+    header( 'location: ../../contacts.html' );
 ?>
