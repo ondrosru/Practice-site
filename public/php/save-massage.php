@@ -5,24 +5,28 @@ function send_message( $post ) {
 			|| (isset( $post['phone'] ) && !empty( $post['phone']))
 			|| (isset( $post['massage'] ) && !empty( $post['massage'])))
 	{
-		$massage = '<b> ФИО: <\\b>' . $post['name'] . '<p>'
-		. '<b>Email: <\b>' . $post['email'] . '<p>'
-		. '<b>Номер телефона: <\\b>' . $post['phone'] . '<p>';
+		$message .= '<html><body>';
+		$massage .= '<b> ФИО: </b>' . $post['name'] . '<p>';
+		$massage .= '<b>Email: </b>' . $post['email'] . '<p>';
+		$massage .= '<b>Номер телефона: </b>' . $post['phone'] . '<p>';
 
 		if (isset( $post['name-company'] ) && !empty( $post['name-company'])) {
-			$massage = $massage . '<b>Название компании: <\\b>' . $post['name-company'] . '<p>';
+			$massage .= '<b>Название компании: </b>' . $post['name-company'] . '<p>';
 		}
 
-		$massage = $massage . '<b>Сообщение: <\\b>' . $post['massage'];
+		$massage .= '<b>Сообщение: </b><p>' . $post['massage'];
+		$message .= "</body></html>";
 
-		$email = 'izickovondros@gmail.com';
-		echo '<script>';
-		echo 'alert("Сообщение отправлено.")';
-		echo '</script>';
-		if (mail($email, 'Сообщение от ООО «АВИДЖИ»', "test") ) {
-			echo 'message send';
-		} else {
-			echo 'message not send';
+		$email = 'izickovexample@gmail.com';
+		$headers = "From: " . strip_tags($email) . "\r\n";
+		$headers .= "MIME-Version: 1.0\r\n";
+		$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+		
+		if (mail($email, 'Сообщение от ООО «АВИДЖИ»', $massage, $headers) ) {
+			echo '<script>';
+			echo 'alert("Сообщение отправлено.")';
+			echo '</script>';
 		}
 	}
 }
