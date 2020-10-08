@@ -20,14 +20,14 @@
 		$company = "NULL";
 	}
 
-	$sql_server = '127.0.0.1:3306';
-	$sql_user = 'ondros';
-	$sql_pwd = '12345678';
-	$sql_db = 'aviji';
+	$sql_server = 'avgpiter.beget.tech';
+	$sql_user = 'avgpiter_iji';
+	$sql_pwd = 'AaBb_2';
+	$sql_db = 'avgpiter_iji';
 
-	$link = mysqli_connect($sql_server, $sql_user, $sql_pwd, $sql_db) or die("Ошибка " . mysqli_error($link));
+	$link = mysqli_connect($sql_server, $sql_user, $sql_pwd, $sql_db) or die("Ошибка: " . mysqli_error($link));
 	$query ="INSERT INTO `user-massage`(`name`, `email`, `phone`, `company`, `massage`) VALUES ('$name', '$email', '$phone', $company, '$massage')";
-	$insert = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
+	$insert = mysqli_query($link, $query) or die("Ошибка: " . mysqli_error($link));
 
 	mysqli_close($link);
 	header( 'location: ../../contacts.html' );
